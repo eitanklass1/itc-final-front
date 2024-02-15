@@ -1,0 +1,17 @@
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6em;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 8em;
+  padding-left: 2em;
+}
+.player > *,
+.Tie > *,
+.computer > * {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

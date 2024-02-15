@@ -1,0 +1,15 @@
+h2 {
+  margin-left: 10px;
+}
+
+.result-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.result-list > li {
+  margin-top: 10px;
+}

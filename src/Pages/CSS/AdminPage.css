@@ -1,0 +1,39 @@
+#admin-header {
+  text-align: center;
+}
+
+.table-title {
+  text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 2rem auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px; 
+
+}
+
+.table thead tr {
+  background-color: #727272;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  
+  padding: 0.8rem 1rem;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: black;
+}
